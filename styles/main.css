@@ -1,0 +1,75 @@
+body {
+    background-color: dodgerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+.fish-img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+header {
+    background-color: bisque;
+    border: 6px black solid;
+    border-radius: 15px;
+    text-align: center;
+    height: 120px;
+}
+
+#fish-list-header {
+    text-align: center;
+}
+
+aside {
+    margin: 10px 0px 0px 20px;
+    width: 20%;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 6px solid black;
+    border-radius: 15px;
+}
+
+.fish-container {
+    border: 6px black solid;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    list-style-type: none;
+}
+
+.fish-details {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
+
+#tank-care-tips {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 5px;
+    list-style-type: none;
+}
+
+#tank-care-tips li {
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: azure;
+}
+#tank-care-header {
+    text-align: center;
+}
